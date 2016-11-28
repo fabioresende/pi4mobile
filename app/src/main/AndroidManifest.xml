@@ -10,12 +10,24 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.MainActivity"></activity>
-        <activity android:name=".activities.ListaTodos"></activity>
-        <activity android:name=".activities.ListaTodos2">
+
+        <activity
+            android:name=".activities.ListaTodos2"
+            android:label="@string/todos">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.Navegacao" />
 
         </activity>
-        <activity android:name=".activities.CriarArtista"></activity>
+
+        <activity android:name=".activities.CriarArtista"
+            android:label="@string/novo">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.Navegacao" />
+
+        </activity>
+
         <activity
             android:name=".activities.Navegacao"
             android:label="@string/title_activity_navegacao"
@@ -26,6 +38,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

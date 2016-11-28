@@ -12,5 +12,8 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="professorangoti.com.artistas.activities.Navegacao"
     tools:showIn="@layout/app_bar_navegacao">
-
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/photo"/>
 </RelativeLayout>

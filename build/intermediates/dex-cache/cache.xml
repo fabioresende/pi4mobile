@@ -30,15 +30,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Android\Code\Artistas\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Android\Code\Artistas\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_ca9c37c7e6cc86a3989faf0744ab858d81d8e844\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Android\Code\Artistas\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -57,48 +48,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Android\Code\Artistas\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Android\Code\Artistas\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_c58578959eec7915551b764b5deb9dde3f31a919\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Android\Code\Artistas\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Android\Code\Artistas\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_d79195626d190e42a01a405ba042ed19cc76131f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\angot\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.0-beta4\de5935a367ba5e343e9df786ac8fc0c7d52b5f0c\converter-gson-2.0.0-beta4.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="de5935a367ba5e343e9df786ac8fc0c7d52b5f0c">
         <dex dex="C:\Android\Code\Artistas\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.0-beta4_d4786f14b3de4ef4652cfbbf8f825ecaeda888a3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\angot\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.4.0\73ccf14fba19ce2190297ac801579f3a85f1c0e8\logging-interceptor-3.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="73ccf14fba19ce2190297ac801579f3a85f1c0e8">
-        <dex dex="C:\Android\Code\Artistas\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.4.0_631840a0a27f1f86a4501776fe8a812852ac3123\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Android\Code\Artistas\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Android\Code\Artistas\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_c2647a912d4a97de85919ab2d63f10e2f3b83a97\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -120,6 +75,87 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Android\Code\Artistas\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_b05ff2388c99156f5062f27de816c0604390f760\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\angot\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Android\Code\Artistas\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_64f9522780c90ab18a51f17966ede05f44218210\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Code\Artistas\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Android\Code\Artistas\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_652d4f5f1c9b87ce8d5ec5a119d5629140c7c85c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Code\Artistas\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Android\Code\Artistas\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_ca9c37c7e6cc86a3989faf0744ab858d81d8e844\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Code\Artistas\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Android\Code\Artistas\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_d449ac7bc1c4a7741b66d8056704a38949b7575f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Code\Artistas\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Android\Code\Artistas\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_c58578959eec7915551b764b5deb9dde3f31a919\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Code\Artistas\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Android\Code\Artistas\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_d79195626d190e42a01a405ba042ed19cc76131f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\angot\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.4.0\73ccf14fba19ce2190297ac801579f3a85f1c0e8\logging-interceptor-3.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="73ccf14fba19ce2190297ac801579f3a85f1c0e8">
+        <dex dex="C:\Android\Code\Artistas\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.4.0_631840a0a27f1f86a4501776fe8a812852ac3123\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Code\Artistas\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Android\Code\Artistas\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_c2647a912d4a97de85919ab2d63f10e2f3b83a97\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Android\Code\Artistas\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -138,15 +174,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Android\Code\Artistas\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_b05ff2388c99156f5062f27de816c0604390f760\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Android\Code\Artistas\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
@@ -160,17 +187,8 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="cf0cb5536dcfcd1f17a46209a0d334ad57612f59">
+        sha1="eefbb14fb57dca8eab848c33274d53f9a73c66c7">
         <dex dex="C:\Android\Code\Artistas\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_13ff3982ccaf0b98da8a616dae2c3e462ff0f626\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\angot\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="C:\Android\Code\Artistas\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_64f9522780c90ab18a51f17966ede05f44218210\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -192,21 +210,21 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Android\Code\Artistas\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Android\Code\Artistas\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_381af21664095113b23d73984e6116253c95c7a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Android\Code\Artistas\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="30f3f672e20639d3a059ce8e8fd2b6c1ff052666">
+        sha1="b574a229fe9510b3a402a56c8084fc3938b41a84">
         <dex dex="C:\Android\Code\Artistas\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_4b8648bfcc1c40832b57647f4ad4a7b7dcabad26\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Android\Code\Artistas\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Android\Code\Artistas\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_652d4f5f1c9b87ce8d5ec5a119d5629140c7c85c\classes.dex" />
     </item>
 
 </items>
