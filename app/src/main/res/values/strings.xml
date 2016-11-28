@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Artistas</string>
+    <string name="title_activity_navegacao">CRUD Artistas</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="sobre">Sobre</string>
+    <string name="todos">Todos artistas</string>
+    <string name="novo">Criar novo artista</string>
 </resources>
