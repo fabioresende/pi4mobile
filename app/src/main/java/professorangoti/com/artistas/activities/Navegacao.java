@@ -10,7 +10,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 import professorangoti.com.artistas.R;
 
@@ -73,7 +72,7 @@ public class Navegacao extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.todos) {
-            Intent i = new Intent(this, ListaTodos2.class);
+            Intent i = new Intent(this, ListaTodos.class);
             startActivity(i);
         } else if (id == R.id.novo) {
             Intent i = new Intent(this, CriarArtista.class);

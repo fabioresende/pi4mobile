@@ -12,7 +12,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".activities.ListaTodos2"
+            android:name=".activities.ListaTodos"
             android:label="@string/todos">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
