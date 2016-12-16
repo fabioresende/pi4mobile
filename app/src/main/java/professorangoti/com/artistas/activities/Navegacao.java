@@ -75,7 +75,7 @@ public class Navegacao extends AppCompatActivity
             Intent i = new Intent(this, ListaTodos.class);
             startActivity(i);
         } else if (id == R.id.novo) {
-            Intent i = new Intent(this, CriarArtista.class);
+            Intent i = new Intent(this, CriarCurso.class);
             startActivity(i);
         }
 

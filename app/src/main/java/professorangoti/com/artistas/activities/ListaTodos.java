@@ -20,9 +20,9 @@ import java.util.List;
 
 import okhttp3.ResponseBody;
 import professorangoti.com.artistas.R;
-import professorangoti.com.artistas.modelo.Artista;
+import professorangoti.com.artistas.modelo.Curso;
 import professorangoti.com.artistas.view.ListaTodosAdaptador;
-import professorangoti.com.artistas.webservice.ArtistasService;
+import professorangoti.com.artistas.webservice.CursoService;
 import professorangoti.com.artistas.webservice.Servico;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -32,7 +32,7 @@ public class ListaTodos extends AppCompatActivity {
 
     Context contexto = this;
     ListView listView;
-    List<Artista> dados;
+    List<Curso> dados;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,8 +47,8 @@ public class ListaTodos extends AppCompatActivity {
         super.onCreateContextMenu(menu, v, menuInfo);
         AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) menuInfo;
         menu.setHeaderTitle("Opções");
-        menu.add(0, dados.get(info.position).getCodArtista(), dados.get(info.position).getCodArtista(), "Excluir");
-        menu.add(0, dados.get(info.position).getCodArtista(), dados.get(info.position).getCodArtista(), "Alterar");
+        menu.add(0, dados.get(info.position).getCodCurso(), dados.get(info.position).getCodCurso(), "Excluir");
+        menu.add(0, dados.get(info.position).getCodCurso(), dados.get(info.position).getCodCurso(), "Alterar");
     }
 
     @Override
@@ -56,7 +56,7 @@ public class ListaTodos extends AppCompatActivity {
         if (item.getTitle() == "Excluir") {
             excluir(item.getItemId());
         } else if (item.getTitle() == "Alterar") {
-            Intent i = new Intent(this,CriarArtista.class);
+            Intent i = new Intent(this,CriarCurso.class);
             i.putExtra("id",item.getItemId());
             startActivity(i);
         } else {
@@ -67,12 +67,12 @@ public class ListaTodos extends AppCompatActivity {
 
     public void consultaServidor() {
 
-        ArtistasService servico = Servico.criarServico(ArtistasService.class);
-        Call<List<Artista>> chamada = servico.todos();
+        CursoService servico = Servico.criarServico(CursoService.class);
+        Call<List<Curso>> chamada = servico.todos();
 
-        chamada.enqueue(new Callback<List<Artista>>() {
+        chamada.enqueue(new Callback<List<Curso>>() {
             @Override
-            public void onResponse(Call<List<Artista>> chamada, Response<List<Artista>> resposta) {
+            public void onResponse(Call<List<Curso>> chamada, Response<List<Curso>> resposta) {
                 if (resposta.isSuccessful()) {
                     dados = resposta.body();
                     //verifica aqui se o corpo da resposta não é nulo
@@ -91,7 +91,7 @@ public class ListaTodos extends AppCompatActivity {
             }
 
             @Override
-            public void onFailure(Call<List<Artista>> chamada, Throwable t) {
+            public void onFailure(Call<List<Curso>> chamada, Throwable t) {
                 Toast.makeText(getApplicationContext(), "Erro na chamada ao servidor", Toast.LENGTH_SHORT).show();
                 Log.d("debug", t.getMessage());
             }
@@ -100,7 +100,7 @@ public class ListaTodos extends AppCompatActivity {
 
     public void excluir(int id) {
 
-        ArtistasService servico = Servico.criarServico(ArtistasService.class);
+        CursoService servico = Servico.criarServico(CursoService.class);
         Call<Void> chamada = servico.deletar(id);
 
         chamada.enqueue(new Callback<Void>() {

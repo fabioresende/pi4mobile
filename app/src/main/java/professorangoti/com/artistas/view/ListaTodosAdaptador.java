@@ -5,24 +5,23 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.List;
 
 import professorangoti.com.artistas.R;
-import professorangoti.com.artistas.modelo.Artista;
+import professorangoti.com.artistas.modelo.Curso;
 
 /**
  * Created by angot on 22/11/2016.
  */
 
-public class ListaTodosAdaptador extends ArrayAdapter<Artista> {
+public class ListaTodosAdaptador extends ArrayAdapter<Curso> {
 
     private Context context;
-    private List<Artista> lista = null;
+    private List<Curso> lista = null;
 
-    public ListaTodosAdaptador(Context context, List<Artista> lista) {
+    public ListaTodosAdaptador(Context context, List<Curso> lista) {
         super(context, 0, lista);
         this.lista = lista;
         this.context = context;
@@ -30,22 +29,22 @@ public class ListaTodosAdaptador extends ArrayAdapter<Artista> {
 
     @Override
     public View getView(int position, View view, ViewGroup parent) {
-        Artista artista = lista.get(position);
+        Curso curso = lista.get(position);
 
         if (view == null)
             view = LayoutInflater.from(context).inflate(R.layout.listatodos2, null);
 
         TextView nome  = (TextView) view.findViewById(R.id.nome);
-        nome.setText(artista.getNome());
+        nome.setText(curso.getNome());
 
-        TextView nacionalidade  = (TextView) view.findViewById(R.id.nacionalidade);
-        nacionalidade.setText(artista.getNacionalidade());
+        TextView preco  = (TextView) view.findViewById(R.id.preco);
+        preco.setText(curso.getPreco().toString());
 
-        TextView cache  = (TextView) view.findViewById(R.id.cache);
-        cache.setText(artista.getCache()+"");
+        TextView cargaHoraria  = (TextView) view.findViewById(R.id.cargaHoraria);
+        cargaHoraria.setText(curso.getCargaHoraria().toString());
 
-        TextView nascimento  = (TextView) view.findViewById(R.id.nascimento);
-        nascimento.setText(artista.getNascimento());
+        TextView pontuacao  = (TextView) view.findViewById(R.id.pontuacao);
+        pontuacao.setText(curso.getPontuacao().toString());
 
         return view;
     }
